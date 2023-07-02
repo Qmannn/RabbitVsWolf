@@ -4,6 +4,9 @@ using RabbitVsWolf.Events;
 
 namespace RabbitVsWolf.Consumers
 {
+    /// <summary>
+    /// Slow consumer for check ConcurrencyMessagelimit exhaustion
+    /// </summary>
     internal class SlowWolfConsumer : IConsumer<BonesEvent>
     {
         private readonly ILogger<SlowWolfConsumer> _logger;
