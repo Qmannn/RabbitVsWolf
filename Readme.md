@@ -4,7 +4,7 @@ Solution created for testing and demonstration how to MassTransit with RabbitMq 
 
 In this solution used CPU-independent event consumers (by design).
 
-This case show that single process can consume too many events.
+This case show that single process can consume really many events.
 Example of usage for this solution is proxy event processing by HTTP/gRPS to another workers behind some NLB (like nginx/haproxy).
 
 Conclusions:
